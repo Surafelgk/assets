@@ -5,9 +5,9 @@
     --primary: #e63946;
     --primary-light: rgb(255, 0, 0);
     --primary-dark: #ffffff;
-    --secondary: #ff0800;
+    --secondary: #e9762c;
     --accent: #a8dadc;
-    --dark: #d04d33;
+    --dark: #e9214f;
     --light: #f8f9fa;
     --gray: #6c757d;
     --success: #2a9d8f;
@@ -166,7 +166,7 @@ body.menu-open {
 }
 
 .loading-progress {
-    width: 300px;
+    width: 200px;
     height: 4px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-full);
@@ -692,7 +692,7 @@ body.menu-open {
     position: relative;
     background: var(--gradient-dark);
     color: white;
-    padding: 120px 0 80px;
+    padding: 100px 0 80px;
     overflow: hidden;
     margin-top: 80px;
 }

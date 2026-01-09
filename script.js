@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Simulate loading progress
     let progress = 0;
     const loadingInterval = setInterval(() => {
-        progress += Math.random() * 20;
+        progress += Math.random() * 30;
         if (progress >= 100) {
             progress = 100;
             clearInterval(loadingInterval);
