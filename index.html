@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZuraAddiss - Empowering Ethiopian Communities through Innovation. Digital marketing, software development, and IT solutions in Addis Ababa.">
+    <meta name="keywords" content="digital marketing, software development, IT solutions, Ethiopia, Addis Ababa">
+    <meta name="author" content="ZuraAddiss">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#e63946">
+    <meta name="msapplication-TileColor" content="#e63946">
+    <meta name="msapplication-config" content="none">
+    <title>Zure Addis - Digital Marketing Agency</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- Loading Screen -->
+<div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+        <div class="loading-logo">
+            <img src="assets/img/logo - Copy.png" alt="Zure Addis Logo" class="loading-logo-img">
+            <div class="holographic-loader"></div>
+        </div>
+        <div class="loading-progress">
+            <div class="progress-bar"></div>
+        </div>
+        <div class="loading-text">INITIALIZING ZURE 2025...</div>
+    </div>
+</div>
+
+    <!-- Cursor Trail Effect -->
+    <div class="cursor-trail"></div>
+    
+    <!-- Enhanced 2025 Header -->
+    <header class="header-2025">
+        <div class="header-container">
+            <!-- Logo with animation -->
+            <a href="#" class="header-logo">
+                <div class="logo-wrapper">
+                    <img src="assets/img/logo.png" alt="Zure Addis" class="logo-main">
+                    <div class="logo-glow"></div>
+                </div>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="header-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            <span class="nav-text">Home</span>
+                            <span class="nav-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <span class="nav-text">About</span>
+                            <span class="nav-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <span class="nav-text">Services</span>
+                            <span class="nav-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <span class="nav-text">Portfolio</span>
+                            <span class="nav-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <span class="nav-text">Contact</span>
+                            <span class="nav-underline"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <!-- Theme Toggle -->
+                <button class="action-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <div class="toggle-icon">
+                        <i class="fas fa-moon dark-icon"></i>
+                        <i class="fas fa-sun light-icon"></i>
+                    </div>
+                </button>
+
+                <!-- Get Started Button -->
+                <a href="#contact" class="header-cta">
+                    <span>Get Started</span>
+                    <div class="cta-hover"></div>
+                </a>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <div class="mobile-menu-header">
+                    <img src="assets/img/logo.png" alt="Zure Addis" class="mobile-logo">
+                    <button class="mobile-close" id="mobileClose">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <nav class="mobile-nav" aria-label="Mobile navigation">
+                    <ul class="mobile-nav-list">
+                        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                        <li><a href="#about" class="mobile-nav-link">About</a></li>
+                        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+                        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-actions">
+                    <a href="#contact" class="mobile-cta">Start Project</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Header Progress Bar -->
+        <div class="header-progress" id="headerProgress"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-2025">
+        <div class="particles-container" id="particles"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-text">✨ FUTURE READY</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="title-line">Empowering Ethiopian</span>
+                            <span class="title-line" style="color: rgb(255, 153, 0); font-weight: 700;">Communities Through</span>
+                            <span class="title-line">Digital Innovation</span>
+                        </h1>
+                        <p class="hero-description">
+                           We help businesses grow through digital marketing, web development, and branding solutions designed for the modern digital era.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="hero-cta primary">
+                                <span>Start Project</span>
+                                <div class="cta-effect"></div>
+                            </a>
+                            <a href="#portfolio" class="hero-cta secondary">
+                                <span>View Our Work</span>
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                
+                            </div>
+                            <div class="stat-item">
+                                
+                            </div>
+                            <div class="stat-item">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="slide-left" data-aos-delay="300">
+                    <div class="hero-visual">
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                            <div class="shape shape-4"></div>
+                        </div>
+                        <div class="hero-image-container">
+                            <!-- Rings moved behind the logo -->
+                            <div class="pulse-ring ring-1"></div>
+                            <div class="pulse-ring ring-2"></div>
+                            <div class="pulse-ring ring-3"></div>
+                            <div class="logo-glow-effect"></div>
+                            
+                            <!-- Logo container -->
+                            <div class="holographic-logo" id="holographicLogo">
+                                <img src="assets/img/logo (2).png" alt="Zure Addis" class="hero-logo">
+                            </div>
+                        </div>
+                        <div class="floating-icons">
+                            <div class="icon-item" data-aos="fade-down" data-aos-delay="500">
+                                <i class="fas fa-code"></i>
+                                <span>Development</span>
+                            </div>
+                            <div class="icon-item" data-aos="fade-down" data-aos-delay="600">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Marketing</span>
+                            </div>
+                            <div class="icon-item" data-aos="fade-down" data-aos-delay="700">
+                                <i class="fas fa-video"></i>
+                                <span>Production</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator-2025">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">
+                <div class="arrow-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-about-2025">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">About Us</div>
+                <h2 class="section-title">
+                    Driving Digital Transformation
+                    <span class="gradient-text">in Ethiopia</span>
+                </h2>
+                <p class="section-subtitle">
+                    We combine cutting-edge technology with deep market insights to deliver exceptional results for our clients.
+                </p>
+            </div>
+            
+            <!-- Logo Marquee -->
+            <div class="logo-marquee-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="marquee-track">
+                    <div class="marquee-inner">
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/1.jpeg" alt="Viva brand paper towels">
+                            <div class="logo-overlay">
+                                <span>Viva brand paper towels</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/2.jpeg" alt="Coffee">
+                            <div class="logo-overlay">
+                                <span>equp app</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/3.png" alt="equp app">
+                            <div class="logo-overlay">
+                                <span>Coffee</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/ozkaz.png" alt="Ozkaz">
+                            <div class="logo-overlay">
+                                <span>Import-Export</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/nyala.png" alt="Nyala">
+                            <div class="logo-overlay">
+                                <span>Automotive Dealer</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/kj.png" alt="KJ Coffee">
+                            <div class="logo-overlay">
+                                <span>Coffee Export</span>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <img src="assets/img/about/about_logos/eco.png" alt="ECO">
+                            <div class="logo-overlay">
+                                <span>Cylinder Gas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- About Content -->
+            <div class="row about-content align-items-center">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="300">
+                    <div class="about-quote-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="quote-text">
+                            "Technology is best when it brings people together and solves real problems."
+                        </h3>
+                        <div class="quote-author">
+                            <span>Zure Addis Team</span>
+                            <span>Digital Innovators</span>
+                        </div>
+                        <div class="quote-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                        <div class="quote-glow"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="400">
+                    <div class="about-info">
+                        <h3 class="about-heading">Our Mission & Vision</h3>
+                        <p class="about-description">
+                            At Zure Addis PLC, we are more than just a company. We are a team of dedicated individuals committed to advancing Ethiopian culture while embracing tradition and shaping the future.
+                        </p>
+                        <p class="about-description">
+                            Located in the vibrant city of Addis Ababa, our company is at the forefront of innovation, dedicated to developing cutting-edge software solutions and venturing into various business categories.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Innovation First</h4>
+                                    <p>We embrace new technologies to deliver cutting-edge solutions.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Client-Centric</h4>
+                                    <p>Your success is our success. We partner with you every step of the way.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>AI Driven</h4>
+                                    <p>Leveraging artificial intelligence for smarter solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats Counter -->
+            <div class="stats-counter" data-aos="fade-up" data-aos-delay="500">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="stat-card">
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="1">0</span>
+                                <span class="stat-suffix">+</span>
+                            </div>
+                            <div class="stat-label">Years Experience</div>
+                            <div class="stat-bar">
+                                <div class="stat-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-card">
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="50">0</span>
+                                <span class="stat-suffix">+</span>
+                            </div>
+                            <div class="stat-label">Projects Delivered</div>
+                            <div class="stat-bar">
+                                <div class="stat-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-card">
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="25">0</span>
+                                <span class="stat-suffix">+</span>
+                            </div>
+                            <div class="stat-label">Team Members</div>
+                            <div class="stat-bar">
+                                <div class="stat-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-card">
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-count="20">0</span>
+                                <span class="stat-suffix">+</span>
+                            </div>
+                            <div class="stat-label">Happy Clients</div>
+                            <div class="stat-bar">
+                                <div class="stat-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Animated Background -->
+        <div class="about-bg-animation">
+            <div class="bg-element bg-1"></div>
+            <div class="bg-element bg-2"></div>
+            <div class="bg-element bg-3"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-services-2025">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Our Services</div>
+                <h2 class="section-title">
+                    Comprehensive Digital Solutions
+                    <span class="gradient-text">For Your Business</span>
+                </h2>
+                <p class="section-subtitle">
+                    We offer a full range of digital services to help your business grow and thrive in the digital age.
+                </p>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-bullhorn"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Digital Marketing</h3>
+                            <p class="service-description">
+                                Comprehensive online strategies including SEO, PPC, email campaigns, and content marketing to boost visibility.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">SEO</span>
+                                <span class="tag">PPC</span>
+                                <span class="tag">Content</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Social Media Management</h3>
+                            <p class="service-description">
+                                Strategic planning, content creation, and community engagement across all major platforms.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Strategy</span>
+                                <span class="tag">Content</span>
+                                <span class="tag">Analytics</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-video"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Video & Audio Production</h3>
+                            <p class="service-description">
+                                Professional creation of high quality videos, podcasts, and audio content for engaging storytelling.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Video</span>
+                                <span class="tag">Audio</span>
+                                <span class="tag">Editing</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-code"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Software Development</h3>
+                            <p class="service-description">
+                                Custom-built applications tailored to your business needs, ensuring scalability and efficiency.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Web</span>
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Enterprise</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-palette"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Branding</h3>
+                            <p class="service-description">
+                                Technology driven branding that shapes modern digital identities and memorable experiences.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Brand Identity</span>
+                                <span class="tag">Digital Presence</span>
+                                <span class="tag">Creative Direction</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card-2025">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <h3 class="service-title">Consulting</h3>
+                            <p class="service-description">
+                                Data driven digital marketing consulting designed to grow visibility, engagement, and conversions.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Digital Strategy</span>
+                                <span class="tag">Marketing Consulting</span>
+                                <span class="tag">Growth</span>
+                            </div>
+                            <div class="service-hover">
+                                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="service-particles"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Tech Elements -->
+        <div class="floating-tech-elements">
+            <div class="tech-element" style="top: 10%; left: 5%;"></div>
+            <div class="tech-element" style="top: 20%; right: 10%;"></div>
+            <div class="tech-element" style="bottom: 30%; left: 15%;"></div>
+            <div class="tech-element" style="bottom: 10%; right: 5%;"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-portfolio-2025">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Our Work</div>
+                <h2 class="section-title">
+                    Featured Projects &
+                    <span class="gradient-text">Success Stories</span>
+                </h2>
+                <p class="section-subtitle">
+                    Explore our portfolio of successful digital transformations and marketing campaigns.
+                </p>
+            </div>
+            
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://drive.google.com/drive/folders/1jwrw8yEOCt1fG1BJvGOJJ56zlMReWuPC" target="_blank" class="portfolio-cta">
+                    <span>View Full Portfolio</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+            
+            <!-- Portfolio Video -->
+            <div class="portfolio-video-2025" data-aos="zoom-in" data-aos-delay="200">
+                <div class="video-container">
+                    <div class="video-placeholder" id="videoPlaceholder">
+                        <img src="assets/img/zure.png" alt="ZuraAddiss Portfolio" class="video-thumbnail">
+                        <div class="video-overlay">
+                            <div class="play-button" id="playButton">
+                                <div class="play-icon">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <div class="play-ripple ripple-1"></div>
+                                <div class="play-ripple ripple-2"></div>
+                            </div>
+                            <div class="video-info">
+                                <h4>Our Digital Journey</h4>
+                                <p>Watch how we transform businesses through technology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-player" id="videoPlayer">
+                        <div class="player-container">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pXBvJrpIDR4?si=IlNJw1CCLOUeZMof" 
+                                    title="ZuraAddiss Portfolio" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen></iframe>
+                            <button class="video-close" id="closeVideo">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio Background -->
+        <div class="portfolio-bg">
+            <div class="portfolio-bg-element"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-cta-2025">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2 class="cta-title">Ready to Transform Your Business?</h2>
+                <p class="cta-text">
+                    Join our growing list of satisfied clients and experience the Zure Addis difference today.
+                </p>
+                <a href="#contact" class="cta-button">
+                    <span>Get Started Now</span>
+                    <div class="button-glow"></div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- CTA Background Animation -->
+        <div class="cta-bg-animation">
+            <div class="cta-particle"></div>
+            <div class="cta-particle"></div>
+            <div class="cta-particle"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-contact-2025">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Contact Us</div>
+                <h2 class="section-title">
+                    Let's Start Your
+                    <span class="gradient-text">Digital Journey</span>
+                </h2>
+                <p class="section-subtitle">
+                    Get in touch with our team to discuss your project requirements.
+                </p>
+            </div>
+            
+            <div class="row contact-content align-items-start">
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="contact-info-2025">
+                        <h3 class="contact-info-title">Get In Touch</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Our Location</h4>
+                                    <p>Addis Ababa, Ethiopia, Bole, Welela Building</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone Number</h4>
+                                    <p>(+251) 941 920 096</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email Address</h4>
+                                    <p>zureaddiss@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Working Hours</h4>
+                                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-icon">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-form-2025">
+                        <form id="contactForm2025">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                                <span class="input-focus"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                                <span class="input-focus"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" class="form-input">
+                                <span class="input-focus"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+                                <span class="input-focus"></span>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-particles"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Background -->
+        <div class="contact-bg">
+            <div class="contact-particle"></div>
+            <div class="contact-particle"></div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer-enhanced">
+        <div class="footer-background">
+            <div class="footer-glow"></div>
+            <div class="footer-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <img src="assets/img/logo - Copy.png" alt="Zure Addis" class="footer-logo-img">
+                                <div class="logo-text">
+                                    <h3>Zure Addis</h3>
+                                    <p>Digital Innovation Agency</p>
+                                </div>
+                            </div>
+                            <p class="footer-about">
+                                An innovative technology solutions company dedicated to revolutionizing the business landscape in Ethiopia through cutting-edge digital solutions.
+                            </p>
+                            <div class="footer-social">
+                                <h4></h4>
+                                <div class="social-links">
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                        <div class="footer-links">
+                            <h4 class="footer-title">Quick Links</h4>
+                            <ul>
+                                <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                                <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                                <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                        <div class="footer-links">
+                            <h4 class="footer-title">Our Services</h4>
+                            <ul>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Digital Marketing</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Social Media Management</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Video Production</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Software Development</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Branding & Design</a></li>
+                                <li><a href="#services"><i class="fas fa-chevron-right"></i> Digital Consulting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4">
+                        <div class="footer-links">
+                            <h4 class="footer-title">Contact Info</h4>
+                            <ul class="contact-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Addis Ababa, Ethiopia<br>Bole, Welela Building</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>(+251) 941 920 096</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>zureaddiss@gmail.com</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <span>Mon - Fri: 9:00 AM - 5:00 PM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <div class="newsletter-content">
+                        <h4>Stay Updated</h4>
+                        <p>Follow us on social media for the latest updates and insights..</p>
+                        <div class="social-links">
+                                    <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-link">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-link">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </form>
+                    </div>
+                </div>
+                
+               <div class="footer-bottom" align="center">
+    <div class="row">
+        <div class="col-md-6">
+            <p>&copy; 2025 ZureAddis PLC. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+
+                     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
