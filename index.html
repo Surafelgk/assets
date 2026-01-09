@@ -36,7 +36,7 @@
         <div class="loading-progress">
             <div class="progress-bar"></div>
         </div>
-        <div class="loading-text">ZURE 2026.........</div>
+        <div class="loading-text">Loading 2026..............</div>
     </div>
 </div>
 
@@ -54,7 +54,7 @@
                 </div>
             </a>
 
-            <!-- Navigation -->
+            <!-- Desktop Navigation -->
             <nav class="header-nav" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -100,8 +100,8 @@
                     </div>
                 </button>
 
-                <!-- Get Started Button -->
-                <a href="#contact" class="header-cta">
+                <!-- Get Started Button (Desktop) -->
+                <a href="#contact" class="header-cta desktop-cta">
                     <span>Get Started</span>
                     <div class="cta-hover"></div>
                 </a>
@@ -113,33 +113,50 @@
                     <span class="toggle-line"></span>
                 </button>
             </div>
-
-            <!-- Mobile Menu -->
-            <div class="mobile-menu" id="mobileMenu">
-                <div class="mobile-menu-header">
-                    <img src="assets/img/logo.png" alt="Zure Addis" class="mobile-logo">
-                    <button class="mobile-close" id="mobileClose">
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                <nav class="mobile-nav" aria-label="Mobile navigation">
-                    <ul class="mobile-nav-list">
-                        <li><a href="#home" class="mobile-nav-link">Home</a></li>
-                        <li><a href="#about" class="mobile-nav-link">About</a></li>
-                        <li><a href="#services" class="mobile-nav-link">Services</a></li>
-                        <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
-                        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="mobile-actions">
-                    <a href="#contact" class="mobile-cta">Start Project</a>
-                </div>
-            </div>
         </div>
         
         <!-- Header Progress Bar -->
         <div class="header-progress" id="headerProgress"></div>
     </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <img src="assets/img/logo.png" alt="Zure Addis" class="mobile-logo">
+            <button class="mobile-close" id="mobileClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#services" class="mobile-nav-link">Services</a></li>
+                <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-actions">
+            <a href="#contact" class="mobile-cta">Start Project</a>
+        </div>
+        <div class="mobile-social">
+            <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-icon">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </div>
 
     <!-- Hero Section -->
     <section id="home" class="hero-2025">
@@ -173,7 +190,7 @@
                                 
                             </div>
                             <div class="stat-item">
-                                
+                             
                             </div>
                             <div class="stat-item">
                                
@@ -721,7 +738,7 @@
                         </div>
                         
                         <div class="social-links">
-                            
+                            <h4>Follow Us</h4>
                             <div class="social-icons">
                                 <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-icon">
                                     <i class="fab fa-instagram"></i>
@@ -734,8 +751,6 @@
                                 </a>
                                 <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-icon">
                                     <i class="fab fa-facebook-f"></i>
-                                </a>
-                                
                                 </a>
                             </div>
                         </div>
@@ -802,9 +817,19 @@
                                 An innovative technology solutions company dedicated to revolutionizing the business landscape in Ethiopia through cutting-edge digital solutions.
                             </p>
                             <div class="footer-social">
-                                <h4></h4>
+                                <h4>Follow Us</h4>
                                 <div class="social-links">
-                                    
+                                    <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-link">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-link">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-link">
+                                        <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </div>
                             </div>
@@ -865,40 +890,28 @@
                 <div class="footer-newsletter">
                     <div class="newsletter-content">
                         <h4>Stay Updated</h4>
-                        <p>Follow us on social media for the latest updates and insights..</p>
+                        <p>Follow us on social media for the latest updates and insights.</p>
                         <div class="social-links">
-                                    <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-link">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-link">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-link">
-                                        <i class="fab fa-tiktok"></i>
-                                    </a>
-                                    <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-link">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                
-                                    </a>
-                                </div>
-                            </div>
+                            <a href="https://www.instagram.com/zureaddis/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/zure-addis" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@zureaddis" target="_blank" class="social-link">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://www.facebook.com/zureaddis" target="_blank" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                         </div>
-                    </div>
-                        </form>
                     </div>
                 </div>
                 
-               <div class="footer-bottom" align="center">
-    <div class="row">
-        <div class="col-md-6">
-            <p>&copy; 2025 ZureAddis PLC. All Rights Reserved.</p>
-        </div>
-    </div>
-</div>
-
-                     
-                            </div>
+                <div class="footer-bottom" align="center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>&copy; 2025 ZureAddis PLC. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
